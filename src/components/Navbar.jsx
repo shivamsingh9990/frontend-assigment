@@ -41,7 +41,7 @@ export default function Navbar() {
 
       {/* Drawer */}
       <div
-        className={`fixed top-0 right-0 h-full w-72 bg-white shadow-xl transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full w-72 bg-white shadow-xl transition-transform z-20 duration-300 ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
       >
